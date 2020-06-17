@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background-image: none;
+}
+a.link{
+    font-size: 14px;
+    display:inline;
+    color:black;
+    font-style: normal;
+    
+}
+#introduction{
+    padding: 40px 0;
+    color: #444;
+    background: linear-gradient(to bottom, #14b0c4 0%, #26cf9c 100%);
+}
+nav
+{
+    background-color: black;
+}
+
+
+table{
+    border-collapse: collapse;
+    padding: 0;
+    background-color:#f4f4f4;
+    height: 532px;
+    margin-bottom: 10px;
+    border-color:gainsboro;
+    font-family: 'Lato', sans-serif;
+    
+}
+th{
+    background-color:lightblue;
+}
+.content{
+    width: 1000px;
+    margin: 15px auto;
+    
+}
+.content1{
+    float: left;
+    width: 72px;
+}
+
+ul.list{
+    width: 9%;
+    margin-bottom: 10px;
+    float: left;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.content2{
+    float: left;
+    padding: 0;
+    margin:0 4px 0 8px;
+    
+}
+
+.list_tab{
+    border-right: none;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    padding: 17px !important;
+    background: #fff;
+    border-top: none;
+}
+.list li{
+    display: block;
+    padding: 17px !important;
+    margin: 0;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+    font-size: 13px;
+    list-style: none;
+    background: #3B5998;
+    color: #fff;
+
+}
+.icon{
+    font-size: 22px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0;
+    width: 42px !important;
+    height: 42px !important;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    line-height: 43px;
+    background: #fff !important;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}

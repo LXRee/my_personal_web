@@ -1,0 +1,82 @@
+.boxer{
+height: 100%;
+width: 1300px;
+margin: 0 10px 0 50px;
+}
+
+#reader{
+    margin: 10px ;
+    height: auto;
+    width: 400px;
+    float: left;
+    background-color: aliceblue;
+}
+#flute{
+    margin: 10px;
+    height: auto;
+    width: 400px; 
+    float: left;
+    background-color: azure;
+}
+#trip{
+    margin: 10px ;
+    height: auto;
+    width: 400px;
+    float: left;
+    background-color: beige;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+h4{
+    font-size: 15px;
+    margin-top: 5px;
+    color:  #999999;
+    font-style: normal;
+    text-align: center;
+}
+img{
+    width: 120px;
+    height: 135px;
+    display: block;
+    float: left;
+    margin: 10px;
+}
+.trip_img{
+    display: block;
+    margin: 5px 0 10px 20px;
+    width: 350px;
+    height: 150px;
+
+}
+.read_text{
+    margin: 10px;
+    float: left;
+    width: 220px;
+    height: auto;
+}
+.trip_text{
+    margin: 10px;
+}
+.reader_box{
+    margin: 10px 5px;
+}
+.flute_box{
+    margin: 10px 5px;
+
+}
+audio{
+    width: 220px;
+    }
+.trip_box{
+    margin: 10px 5px;
+
+}
+a.book{
+    float: left; 
+    width: 120px;
+    height: 135px;
+}

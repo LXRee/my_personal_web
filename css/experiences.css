@@ -1,0 +1,53 @@
+#experiences{
+    padding: 40px 0;
+    color: #444;
+    background: url(../img/experiences/经历背景.jpg);
+
+}
+body{
+    height: 100%;
+}
+.contain{
+    margin: 30px 10px 0 150px;
+    width: 1200px;
+    height: auto;
+    display: block;
+}
+.bx{
+    width: 235px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+.bx_nail{
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+.img_circle{
+    width: 120px;
+    height: 120px;
+    border: 4px solid transparent;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+}
+.caption{
+    padding: 9px;
+    color: #5a5a5a;
+    text-align: center;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+p{
+    margin: 0 0 10px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一个在校大学生的个人网站</title>
+    <link type="text/css" href="css/index.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
+<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
+
+</head>
+<body>
+    <!-- 主页中的导航 -->
+    <nav>
+        <!-- container中包含姓名和导航菜单 -->
+        <div class="container">
+            <div class="nav1"><i style="color:#F4D03F;">&gt</i>清菱的网页</div>
+            <ul class="nav2">
+                <li ><a href="index.html">主页</a></li>
+                <li><a href="introduction.html">个人简介</a></li>
+                <li><a href="skills.html"> 专业技能</a></li>
+                <li><a href="works.html">我的作品</a></li>
+                <li><a href="experiences.html">我的经历</a></li>
+                <li><a href="favorite.html">兴趣爱好</a></li>
+                <li><a href="contact.html">联系我</a></li></ul>
+            <!-- 清除不必要的浮动 -->
+            <div style="clear:both;"></div>
+        </div>  
+    </nav>
+    <!-- 该部分用来构建会旋转的头像,用到了css3中的animation动画属性 -->
+    <div class="container1">
+    <div class="head_div">
+        <div class="circle_item">
+        <p class="p1" style="left: -10px; top: 307px;"><span class="txt">古灵精怪</span></p>
+        <p class="p2" style="left: 339px;top: 155px;"><span class="txt">活泼开朗</span></p>
+        <p class="p3" style="left: 30px;top: 7px;"><span class="txt">乐观自信</span></p>
+    <!-- 嵌套了三个循环圈，颜色分别为绿色、黄色、蓝色，里面包围了一个头像 -->
+        <div class="green_cycle"><img  class= "green_cycle_img" src="./img/index/green_cycle.svg" >
+            <div class="yellow_cycle"><img  class="yellow_cycle_img" src="./img/index/yellow_cycle.svg" >
+                <div class="blue_cycle"><img  class= "blue_cycle_img" src="./img/index/blue_cycle.svg" >
+                    <div class="head_div_img"><img  class="head_img" src="./img/index/头像.jpg" >
+                    </div>
+            </div>
+            </div>
+        </div>   
+        </div>
+        <h1 class="title">座右铭</h1>
+        <h2 class="subtitle">只管低头努力，剩下的交给时间</h2>
+    </div>
+</div>
+    <div style="clear:both;"></div>
+    
+</body>
+</html>
